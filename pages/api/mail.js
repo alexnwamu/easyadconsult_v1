@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
     const { name, email, message,phoneNumber } = req.body;
     const mailgun = new Mailgun(formData);
-    const client = mailgun.client({username: 'api', key: API_KEY || '70d5a1d1a1139bb21d2eb7cdff64b0f3-5d9bd83c-a2e839d7'});
+    const client = mailgun.client({username: 'api', key: API_KEY });
 
     const messageData = {
       from: 'EasyAd Website <john@mg.yourdomain.com>',

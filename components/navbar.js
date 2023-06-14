@@ -14,14 +14,14 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex z-40 items-center justify-center bg-bgWhite">
-      <nav className="container z-10 fixed top-0 w-full flex bg-white dark:bg-trueGray-900 flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container z-10 fixed top-0 w-full flex bg-white  flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
         {/* Logo  */}
         <Disclosure>
           {({ open }) => (
             <>
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-primary dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-primary ">
                   <Image src='/img/logo.png' height={100} width={150} alt="EASYAD"/>
                     
                   </span>
@@ -29,7 +29,7 @@ const Navbar = () => {
 
                 <Disclosure.Button
                   aria-label="Toggle Menu"
-                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-secondary focus:text-secondary focus:bg-bgWhite focus:outline-none dark:text-gray-300 dark:focus:bg-secondary ">
+                  className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-secondary focus:text-secondary focus:bg-bgWhite focus:outline-none  ">
                   <svg
                     className="w-6 h-6 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} scroll={false} href={`${ index === 0 ? '/#services' :''} ${ index === 2 ? '/programs' :''}${ index === 3 ? '/#contactform' :''} ${ index == 1 ? '/#whygeorgia ' :''} `}  className="w-full px-4 py-2 -ml-4 text-gray-500  dark:text-gray-300 hover:text-primary focus:text-primary focus:bg-bgWhite dark:focus:bg-gray-800 focus:outline-none
+                      <Link key={index} scroll={false} href={`${ index === 0 ? '/#services' :''} ${ index === 2 ? '/programs' :''}${ index === 3 ? '/#contactform' :''} ${ index == 1 ? '/#whygeorgia ' :''} `}  className="w-full px-4 py-2 -ml-4 text-gray-500   hover:text-primary focus:text-primary focus:bg-bgWhite  focus:outline-none
                        border-b">
                           {item}
                       </Link>
@@ -74,8 +74,8 @@ const Navbar = () => {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link scroll={false} href={`${ index === 0 ? '/#services' :''}  ${index === 3 ? '/#contact' :''} ${ index === 1 ? '/#whyus' :''} ${index == 2 ? '/programs':''} `} className={`inline-block scroll-smooth px-4 py-2 text-lg font-normal text-gray-800 no-underline
-                 rounded-md dark:text-gray-200 hover:text-secondary focus:text-primary focus:bg-bgWhite 
-              focus:outline-none dark:focus:bg-gray-800`}>
+                 rounded-md hover:text-secondary focus:text-primary focus:bg-bgWhite 
+              focus:outline-none`}>
                     {menu}
                 </Link>
               </li>

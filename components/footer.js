@@ -13,19 +13,19 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
               <Link href="/">
-                  <span className="flex items-center space-x-2 text-2xl font-medium text-primary dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-2xl font-medium text-primary ">
                   <Image src='/img/logo.png' height={100} width={150} alt="EASYAD"/>
                     
                   </span>
                 </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            <div className="max-w-md mt-4 text-gray-500 ">
             EasyAd Consult: An agency that simplifies studying abroad in Georgia. Let us handle the admissions process, ensuring a seamless experience as you pursue your educational dreams. Contact us today and discover your path to success!
             </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link scroll={false} key={index} href={`${index == 1 ? '/#whygeorgia': '/#services'}`} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-secondary focus:text-secondary focus:bg-bgWhite focus:outline-none ">                 
+                <Link scroll={false} key={index} href={`${index == 1 ? '/#whygeorgia': '/#services'}`} className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-secondary focus:text-secondary focus:bg-bgWhite focus:outline-none ">                 
                     {item}
                 </Link>
               ))}
@@ -45,7 +45,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} scroll={false} href={`${index == 0 ? '/programs': '/#contactform'}`} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-secondary focus:text-secondary focus:bg-bgWhite focus:outline-none">      
+                <Link key={index} scroll={false} href={`${index == 0 ? '/programs': '/#contactform'}`} className="w-full px-4 py-2 text-gray-500 rounded-md  hover:text-secondary focus:text-secondary focus:bg-bgWhite focus:outline-none">      
                     {item}
                 </Link>
               ))}
@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
           <div className="">
             <div>Follow us</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+            <div className="flex mt-5 space-x-5 text-gray-400 ">
            
               <a
                 href="https://www.facebook.com/easyadconsult"
@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        <div className="my-10 text-sm text-center text-gray-600 ">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a
             href="https://www.linkedin.com/in/dinaka-nwamu-489683234/"

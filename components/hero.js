@@ -8,10 +8,10 @@ const Hero = () => {
       <Container className="flex flex-wrap mt-[100px] ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-medium leading-snug  font-roboto tracking-tight text-primary lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-primary ">
+            <h1 className="text-4xl font-medium leading-snug  font-roboto tracking-tight text-primary lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight ">
            Make your Dream your Reality !
             </h1>
-            <p className="py-5 text-base leading-normal text-gray-500 lg:text-lg xl:text-lg dark:text-gray-300">
+            <p className="py-5 text-base leading-normal text-gray-500 lg:text-lg xl:text-lg ">
             Our agency empowers you to  achieve greatness through <br  className="hidden xl:block"/>studying abroad in Georgia in Europe with tailored <br className="hidden xl:block" />  support, mentorship, and resources
             </p>
 
@@ -22,7 +22,7 @@ const Hero = () => {
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-secondary rounded-md ">
                 Free Consultation
               </a>
-              <div className="sm:text-base text-sm text-gray-700 dark:text-white">
+              <div className="sm:text-base text-sm text-gray-700 ">
           Over <span className="text-secondary">5+</span>{" "}years helping students <br className="hidden sm:block
           " /> achieve their dreams
             
