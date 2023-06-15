@@ -49,8 +49,7 @@ Georgia is a captivating country in Europe.With excellent academic institutions 
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+   These are testimonials of people who have tested and trusted EasyAd Consult
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">

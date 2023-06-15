@@ -35,7 +35,7 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "How long does the getting admissions?",
+    question: "How long does it take to get admissions?",
     answer: "On average with our help, you should have your admission letter within a week",
   },
   {
