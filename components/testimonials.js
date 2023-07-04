@@ -13,7 +13,7 @@ const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-bgWhite px-14 rounded-2xl py-14 ">
             <p className="text-2xl leading-normal ">
-              After leaving secondary school wanting to study medicine but not knowing what to do next. EasyAd Consult helped guide me to Georgia showing me all the <Mark>advantages</Mark> and I absolutely love the experience so far.
+              After leaving secondary school wanting to study medicine but not knowing what to do next. EasyAD Consult helped guide me to Georgia showing me all the <Mark>advantages</Mark> and I absolutely love the experience so far.
             </p>
 
             <Avatar
@@ -26,7 +26,7 @@ const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-bgWhite px-14 rounded-2xl py-14 ">
             <p className="text-2xl leading-normal ">
-              I dont know if I can express them all in words, Like the name EASYad Consult. They basically made the whole process <Mark>EASY</Mark>for me.
+              I dont know if I can express them all in words, Like the name EasyAD Consult. They basically made the whole process <Mark>EASY</Mark>for me.
             </p>
 
             <Avatar
@@ -39,7 +39,7 @@ const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-bgWhite px-14 rounded-2xl py-14 ">
             <p className="text-2xl leading-normal ">
-            From helping me process my admission, to acquiring the documents for my visa,working with EasyAd Consult was <Mark>seamless</Mark> and stress-free.
+            From helping me process my admission, to acquiring the documents for my visa,working with EasyAD Consult was <Mark>seamless</Mark> and stress-free.
             </p>
 
             <Avatar

@@ -23,7 +23,7 @@ const benefitOne = {
       icon:<BuildingLibraryIcon/> ,
     }, 
     {
-      title: "NO IELTS/TOFL ",
+      title: "NO IELTS/TOEFL ",
       desc: "No language exams needed. Study in Georgia with ease, explore diverse courses taught in English.",
       icon: <AcademicCapIcon />,
     }, 
@@ -43,7 +43,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "What we offer you",
-  desc: "Here at Easy Ad Consult, we specialize in securing university admissions abroad in Georgia, we help students smoothly transition to universities in the country.",
+  desc: "Here at EasyAD Consult, we specialize in securing university admissions abroad in Georgia, we help students smoothly transition to universities in the country.",
   image: benefitTwoImg,
   bullets: [
     {

@@ -48,7 +48,7 @@ const faqdata = [
       "No, all you need is your O level results (WASSCE) ",
   },
   {
-    question: "Does Easy Ad process graduate admissions?",
+    question: "Does EasyAD process graduate admissions?",
     answer:
       "Yes we do book a free consultation now",
   },

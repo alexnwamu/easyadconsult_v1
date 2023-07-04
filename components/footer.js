@@ -26,7 +26,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 ">
-            EasyAd Consult: An agency that simplifies studying abroad in Georgia. Let us handle the admissions process, ensuring a seamless experience as you pursue your educational dreams. Contact us today and discover your path to success!
+            EasyAD Consult: An agency that simplifies studying abroad in Georgia. Let us handle the admissions process, ensuring a seamless experience as you pursue your educational dreams. Contact us today and discover your path to success!
             </div>
 
             <div className="mt-5">
